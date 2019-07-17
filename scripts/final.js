@@ -4,13 +4,6 @@ import {Provider} from 'react-redux';
 import CommentBox from './components';
 import {configureStore} from './redux/configureStore';
 
-/* var checkStore = setInterval(()=>{
-    if(undefined !== configureStore){
-        clearInterval(checkStore);
-    }
-}, 8);
- */
-
 const store = configureStore({author:'', text: '',
     items:[
         {id: 1, author: "Gaurav Joshi", text: "My 2 scents - loaded via intitalState"},
