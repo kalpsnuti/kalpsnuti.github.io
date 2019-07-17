@@ -13,11 +13,11 @@ import {configureStore} from './redux/configureStore';
 
 const store = configureStore({author:'', text: '',
     items:[
-        {id: 1, author: "Cory Brown", text: "My 2 scents - loaded via intitalState"},
-        {id: 2, author: "Jared Anderson", text: "Let me put it this way. You've heard of Socrates? Aristotle? Plato? Morons! - loaded via intitalState"},
-        {id: 3, author: "Matt Poulson", text: "It's just a function! - loaded via intitalState"},
-        {id: 4, author: "Bruce Campbell", text: "Fish in a tree? How can that be? - loaded via intitalState"},
-        {id: 5, author: "Tim Riker", text: "So what we're learning is to keep our componets dumb? - loaded via intitalState"}
+        {id: 1, author: "Gaurav Joshi", text: "My 2 scents - loaded via intitalState"},
+        {id: 2, author: "User One", text: "Let me put it this way. You've heard of Socrates? Aristotle? Plato? Morons! - loaded via intitalState"},
+        {id: 3, author: "User Two", text: "It's just a function! - loaded via intitalState"},
+        {id: 4, author: "User Three", text: "Fish in a tree? How can that be? - loaded via intitalState"},
+        {id: 5, author: "User Four", text: "So what we're learning is to keep our componets dumb? - loaded via intitalState"}
     ]
 });
 
