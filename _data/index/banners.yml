@@ -6,4 +6,7 @@
   title: Manifesto for Software Craftsmanship
 
 - src: landing/header_two.jpg
-  title: data driven
+  title: code with SOLID
+
+- src: landing/header_three.png
+  title: the neural network
