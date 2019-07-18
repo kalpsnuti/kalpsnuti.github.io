@@ -26,9 +26,13 @@ author:  # change following line to your infomation.
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-java-bold
+    - name: icon-spring
     - name: icon-reactjs
+    - name: icon-git
   skill_icon2:
     - name: icon-aws
+    - name: icon-docker
+    - name: icon-python
     - name: fa-linux
   # Describe yourself.
   desc: Gaurav's site, java architecture's & deep-dive on microservices, functional/reactive & cloud native applications; ui/ux stuff.
