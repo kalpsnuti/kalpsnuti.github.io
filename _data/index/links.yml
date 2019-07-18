@@ -2,19 +2,20 @@
 - last_name: Gaurav J
   first_name:  Mastek
   desc: Technical Specialist
-  website: https://www.mastek.com/
+  primary: https://www.mastek.com/
+  secondary: false
   email: gaurav.joshi@mastek.com
 
 - last_name: Civetweb
   first_name: Blogs
   desc: Wordpress / Blogspot
-  website:
-    - https://civetweb.wordpress.com/
-    - http://civetweb.blogspot.com/
+  primary: https://civetweb.wordpress.com/
+  secondary: http://civetweb.blogspot.com/
+  email: false
 
 - last_name: Work
   first_name: Manifesto's
   desc: softwarecraftsmanship / agile
-  website:
-    - http://manifesto.softwarecraftsmanship.org/
-    - https://agilemanifesto.org/
+  primary: http://manifesto.softwarecraftsmanship.org/
+  secondary: https://agilemanifesto.org/
+  email: false
