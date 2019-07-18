@@ -4,7 +4,7 @@ title: Gaurav J.
 description: Gaurav Joshi personal site.
 keywords: micro,services,cloud,spring,boot,aws,dropwizard,oss,agile
 # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-baseurl:  /
+baseurl: /
 # url should be 'http://<github_username>.github.io/homepage' as before
 url: https://kalpsnuti.github.io/
 # url: http://127.0.0.1:4000
@@ -12,28 +12,24 @@ url: https://kalpsnuti.github.io/
 img_path: /static/assets/img/blog
 
 # author -- index page "about me" section
-author:  # change following line to your infomation.
-  name: Gaurav J.  # Be used at blog posts' author.
-  first_name: Gaurav  # Be used at index page about me section.
-  last_name: Joshi  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: kalpsnuti  # Leave blank if you don't have now
+author: # change following line to your infomation.
+  name: Gaurav J. # Be used at blog posts' author.
+  first_name: Gaurav # Be used at index page about me section.
+  last_name: Joshi # Be used at index page about me section.
+  avatar: /static/assets/img/landing/avatar.jpg # upload your avatar at directory and edit it.
+  github_username: gaurrav-j # Leave blank if you don't have now
   linkedin_id: shabdsnuti # Leave blank if you don't have now
-  facebook_username:   # Leave blank if you don't have now
-  twitter_username: shabdsnuti  # Leave blank if you don't have now
-  email: gaurav.joshi@email.com  # Leave blank if you don't have now
+  facebook_username: shabdsnuti# Leave blank if you don't have now
+  twitter_username: shabdsnuti # Leave blank if you don't have now
+  email: gaurav.joshi@email.com # Leave blank if you don't have now
   cv: # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-java-bold
-    - name: icon-spring
     - name: icon-reactjs
-    - name: icon-git
   skill_icon2:
     - name: icon-aws
     - name: icon-docker
-    - name: icon-python
-    - name: fa-linux
   # Describe yourself.
   desc: Gaurav's site, java architecture's & deep-dive on microservices, functional/reactive & cloud native applications; ui/ux stuff.
 
@@ -53,15 +49,15 @@ go:
   # id:
 
 ## growingIO
-gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+gio:# if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
   # id:
 
 ## donation
-donation: off  # type 'on'/'off' to choice display donation button at post page or not
+donation: off # type 'on'/'off' to choice display donation button at post page or not
 
 ## carousels
-index_carousel: on  # index page carousel switch
-blog_carousel: on  # blog page carousel switch
+index_carousel: on # index page carousel switch
+blog_carousel: on # blog page carousel switch
 
 # scss
 sass:
