@@ -1,0 +1,30 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Mastek India Pvt. Ltd.
+    i18n: mastek
+  desc:
+    detail: I worked on java based micro-service architectures.
+    i18n: mastek_desc
+  date:
+    detail: Nov. 2014 & Aug. 2018
+    i18n: mastek_date
+  job:
+    detail: Technical Specialist
+    i18n: mastek_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: Cignex Datamatics
+    i18n: cignex_b
+  desc:
+    detail: I worked designed projects on Liferay portal framework.
+    i18n: cignex_desc
+  date:
+    detail: Nov. 2011
+    i18n: cignex_date
+  job:
+    detail: Senior Designer / Associate Architect
+    i18n: cignex_job
+  icon: fa-plus-square

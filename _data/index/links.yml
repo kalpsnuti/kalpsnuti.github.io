@@ -1,0 +1,18 @@
+# links section data
+- last_name: Gaurav
+  first_name:  J.
+  desc: Technical Specialist
+  website: https://www.mastek.com/
+  email: gaurav.joshi@mastek.com
+
+- last_name: Civetweb
+  first_name: Blogs
+  desc: Wordpress
+  website: https://civetweb.wordpress.com/
+  email: gaurav.joshi@programmer.com
+
+- last_name: Civetweb
+  first_name: Blogs
+  desc: Blogspot
+  website: http://civetweb.blogspot.com/
+  email: gaurav.joshi@email.com
