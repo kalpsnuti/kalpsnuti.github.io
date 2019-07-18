@@ -1,7 +1,7 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Mastek India Pvt. Ltd.
+    detail: Mastek Ltd
     i18n: mastek
   desc:
     detail: I worked on java based micro-service architectures.
@@ -17,9 +17,9 @@
 
 - name:
     detail: Cignex Datamatics
-    i18n: cignex_b
+    i18n: cignex
   desc:
-    detail: I worked designed projects on Liferay portal framework.
+    detail: I designed projects on Liferay portal framework.
     i18n: cignex_desc
   date:
     detail: Nov. 2011
@@ -27,4 +27,46 @@
   job:
     detail: Senior Designer / Associate Architect
     i18n: cignex_job
+  icon: fa-plus-square
+
+- name:
+    detail: IBM Global Services
+    i18n: ibm
+  desc:
+    detail: I worked on European Commission job portal.
+    i18n: ibm_desc
+  date:
+    detail: Sep. 2008
+    i18n: ibm_date
+  job:
+    detail: Senior System Engineer
+    i18n: ibm_job
+  icon: fa-plus-square
+
+- name:
+    detail: Arrk Group
+    i18n: arrk
+  desc:
+    detail: I designed British energy utility projects.
+    i18n: arrk_desc
+  date:
+    detail: Mar. 2007
+    i18n: arrk_date
+  job:
+    detail: Technical Lead
+    i18n: arrk_job
+  icon: fa-plus-square
+
+- name:
+    detail: Accenture
+    i18n: accenture
+  desc:
+    detail: I developed fortune 500 investment bank's compliance projects.
+    i18n: accenture_desc
+  date:
+    detail: Mar. 2006
+    i18n: accenture_date
+  job:
+    detail: System Engineer
+    i18n: accenture_job
   icon: fa-plus-square

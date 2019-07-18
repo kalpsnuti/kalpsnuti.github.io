@@ -1,7 +1,7 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Edelweiss Insurance
+- name: Edelweiss General Insurance
   i18n: edelweissinsurance
   #gh_user: kalpsnuti
   url: https://www.edelweissinsurance.com/
@@ -9,14 +9,20 @@
   img: /static/assets/img/landing/edelweiss.png
   desc: The Edelweiss group's foray into next gen general insurace market.
 
-- name: Wm Morrisons PLC
+- name: Wm Morrisons PLC Freshbackbone
   i18n: morrisons
   url: https://groceries.morrisons.com/webshop/startWebshop.do
   img: /static/assets/img/landing/morrisons.svg
   desc: I worked on fresh supplies middleware project using AWS cloud native tools.
 
-- name: SEIC UK
+- name: SEIC UK Welath Management Portal
   i18n: seic
   url: https://seic.com/en-gb
   img: /static/assets/img/landing/seic.png
   desc: This is a wealth management portal based on Liferay framework.
+
+- name: Aon Benefits Portal
+  i18n: aonh
+  url: https://apac.aonhewitt.com/home
+  img: /static/assets/img/landing/aonh.png
+  desc: This is an employee benefits portal based on Liferay framework.
