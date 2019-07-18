@@ -3,7 +3,7 @@
 #
 # Images are expected to be located in `static/assets/img/`.
 - src: landing/header_one.jpg
-  title: speed up to goal
+  title: Manifesto for Software Craftsmanship
 
 - src: landing/header_two.jpg
   title: data driven

@@ -25,10 +25,10 @@ author:  # change following line to your infomation.
   cv: # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: fa-java
-    - name: fa-react
+    - name: icon-java-bold
+    - name: icon-reactjs
   skill_icon2:
-    - name: fa-aws
+    - name: icon-aws
     - name: fa-linux
   # Describe yourself.
   desc: Gaurav's site, java architecture's & deep-dive on microservices, functional/reactive & cloud native applications; ui/ux stuff.

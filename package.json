@@ -1,5 +1,5 @@
 {
-  "name": "Jalpc",
+  "name": "GauravJ",
   "version": "1.1.1",
   "description": "npm config file for Jalpc",
   "main": "",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/jarrekk/Jalpc.git"
   },
-  "author": "Kun Jia",
+  "author": "Gaurav Joshi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jarrekk/Jalpc/issues"
