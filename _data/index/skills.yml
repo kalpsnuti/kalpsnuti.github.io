@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Architecture, Microservices, Springboot, Java 8, AWS, Spring Cloud, Reactive, Functional, React-redux, Liferay, Angular 4, Python, Deep Learing, Agile
-percentage: 95, 80, 90, 100, 95, 40, 30, 70, 60, 100, 40, 45, 20, 75
+aspects: Java 8, Architecture, AWS, Redux, Springboot, Microservices, Dropwizard, Functional, ReactJs, AngularJs4, Spring Cloud, RxJava, Liferay, Python, Deep Learing, Softwarecraftsmanship
+percentage: 100, 97, 95, 95, 90, 85, 75, 70, 65, 55, 40, 30, 100, 50, 30, 78

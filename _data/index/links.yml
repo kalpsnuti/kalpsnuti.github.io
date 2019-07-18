@@ -7,12 +7,14 @@
 
 - last_name: Civetweb
   first_name: Blogs
-  desc: Wordpress
-  website: https://civetweb.wordpress.com/
-  email: gaurav.joshi@programmer.com
+  desc: Wordpress / Blogspot
+  website:
+    - https://civetweb.wordpress.com/
+    - http://civetweb.blogspot.com/
 
-- last_name: Civetweb
-  first_name: Blogs
-  desc: Blogspot
-  website: http://civetweb.blogspot.com/
-  email: gaurav.joshi@email.com
+- last_name: Work
+  first_name: Manifesto's
+  desc: softwarecraftsmanship / agile
+  website:
+    - http://manifesto.softwarecraftsmanship.org/
+    - https://agilemanifesto.org/
