@@ -15,8 +15,8 @@
 - name: Database
   href: /database/
 
-- name: Deep Learning
-  href: /ml/
+- name: Machine Learning
+  href: /machine_learning/
 
 - name: Life
   href: /life/
