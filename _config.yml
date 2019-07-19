@@ -42,15 +42,15 @@ author: # change following line to your infomation.
 ## google analytics
 # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
 ga:
-#  id: UA-93473370-3
+ ##id: UA-93473370-3
 
 ## google optimize
 go:
-  # id:
+  ##id:
 
 ## growingIO
 gio:# if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
-  # id:
+  ##id:
 
 ## donation
 donation: off # type 'on'/'off' to choice display donation button at post page or not
@@ -72,3 +72,4 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  
