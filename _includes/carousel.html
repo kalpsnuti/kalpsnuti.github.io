@@ -1,32 +1,34 @@
 <div id="inSlider" class="carousel">
+    <div id="typed-text" class="typed-text"></div>
     <div class="header-back"
-            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[1].src }});"
+            style="background-image: url({{ 'static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[1].src }});"
             title="{{ site.data.index.banners[1].title }}">
     </div>
-    <span id="typed-text" class="typed-text"></span>
 </div>
 
 {% if site.dynamic-typing %}
   <!-- Dynamic Typing Start -->
-  <script src="{{"/static/js/typed.min.js"| prepend: site.baseurl }}"></script>
-  <script type="text/javascript">
+  <script src="{{"static/js/typed.min.js"| prepend: site.baseurl }}"></script>
 
+  <script type="text/javascript">
     var myQuotes =  new Array();
     {% for line in site.lines %}
         myQuotes.push("{{ line.text }}");
     {% endfor %}
 
+  console.dir(myQuotes);
+
   function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex ;
 
-    // While there remain elements to shuffle...
+    /* While there remain elements to shuffle... */
     while (0 !== currentIndex) {
 
-      // Pick a remaining element...
+      /* Pick a remaining element... */
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex -= 1;
 
-      // And swap it with the current element.
+      /* And swap it with the current element. */
       temporaryValue = array[currentIndex];
       array[currentIndex] = array[randomIndex];
       array[randomIndex] = temporaryValue;
@@ -36,7 +38,7 @@
   }
 
   {% if site.shuffle %}
-    shuffle(myQuotes)
+    shuffle(myQuotes);
   {% endif %}
 
     $("#typed-text").typed({
@@ -45,61 +47,9 @@
       backDelay: {{ site.delete-delay }},
       startDelay: {{ site.start-delay }},
       loop: {{ site..loop }},
-      loopCount: {{ site.loop-count }},
-      cursorChar: "|"
+      loopCount: {{ site.loop-count }}
     });
   </script>
 
   <!-- Dynamic Typing End  -->
 {% endif %}
-
-{% comment %}
-<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-        <li data-target="#inSlider" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-
-        <div class="item active">
-            <div class="container">
-                <div class="carousel-caption">
-                </div>
-                <div class="carousel-image wow zoomIn">
-                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div
-            class="header-back"
-            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }});"
-            title="{{ site.data.index.banners[0].title }}">
-            </div>
-        </div>
-
-        {% for banner in site.data.index.banners offset:1 %}
-        <div class="item">
-            <div class="container">
-                <div class="carousel-caption">
-                </div>
-                <div class="carousel-image wow zoomIn">
-                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back" style="background-image: url({{ "/static/assets/img/"  | prepend: site.baseurl }}{{ banner.src }});" title="{{ banner.title }}"></div>
-        </!-->
-        {% endfor %}
-
-    </div>
-    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-{% endcomment %}

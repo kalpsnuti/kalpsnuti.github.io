@@ -6,28 +6,38 @@ keywords: micro,services,cloud,spring,boot,aws,dropwizard,oss,agile
 # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 baseurl: /
 # url should be 'http://<github_username>.github.io/homepage' as before
-url: https://kalpsnuti.github.io/
+url: https://kalpsnuti.github.io
 # url: http://127.0.0.1:4000
 # url should be '/homepage/static/assets/img/blog' as before
 img_path: /static/assets/img/blog
 
 # author -- index page "about me" section
-author: # change following line to your infomation.
-  name: Gaurav J. # Be used at blog posts' author.
-  first_name: Gaurav # Be used at index page about me section.
-  last_name: Joshi # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg # upload your avatar at directory and edit it.
-  github_username: gaurrav-j # Leave blank if you don't have now
-  linkedin_id: shabdsnuti # Leave blank if you don't have now
+# change following line to your infomation.
+author:
+  # Be used at blog posts' author.
+  name: Gaurav J.
+  # Be used at index page about me section.
+  first_name: Gaurav
+  # Be used at index page about me section.
+  last_name: Joshi
+  # upload your avatar at directory and edit it.
+  avatar: static/assets/img/landing/avatar.jpg
+  # Leave blank if you don't have now
+  github_username: gaurrav-j
+  # Leave blank if you don't have now
+  linkedin_id: shabdsnuti
   facebook_username: shabdsnuti# Leave blank if you don't have now
-  twitter_username: shabdsnuti # Leave blank if you don't have now
-  email: gaurav.joshi@email.com # Leave blank if you don't have now
-  cv: # An online CV can be printed as PDF, leave blank if you don't have now
+  # Leave blank if you don't have now
+  twitter_username: shabdsnuti
+  # Leave blank if you don't have now
+  email: gaurav.joshi@email.com
+  # An online CV can be printed as PDF, leave blank if you don't have now
+  cv:
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
-  skill_icon1:
+  primary_icons:
     - name: icon-java-bold
     - name: icon-reactjs
-  skill_icon2:
+  secondary_icons:
     - name: icon-aws
     - name: icon-docker
   # Describe yourself.
@@ -40,36 +50,47 @@ author: # change following line to your infomation.
 
 ## google analytics - if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
 ga:
- #id: UA-93473370-3
+  #id: UA-93473370-3
 
 ## google optimize
 go:
   #id:
 
 ##growingIO - if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
-gio: 
+gio:
   #id:
 
-## donation
-donation: off # type 'on'/'off' to choice display donation button at post page or not
+## donation type 'on'/'off' to choice display donation button at post page or not
+donation: off
 
 ## carousels
-index_carousel: on # index page carousel switch
-blog_carousel: on # blog page carousel switch
+# index page carousel switch
+index_carousel: on
+# blog page carousel switch
+blog_carousel: on
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
+# Shuffle the lines.
+shuffle: False
 loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
+# Set False for infinite loop, or set any number for finite loop.
+loop-count: False
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+# You can add HTML Tags in the Text
+lines:
+  - text: "Individuals and interactions^700 over processes and tools"
+  - text: "Working software^700 over comprehensive documentation"
+  - text: "Customer collaboration^700 over contract negotiation"
+  - text: "Responding to change^700 over following a plan"
+  - text: "Customer collaboration^700 over contract negotiation"
+  - text: "while there is value in the items on the right,^700 we value the items on the left more."
+
+#Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.
 
 # scss
 sass:
@@ -84,4 +105,3 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  
