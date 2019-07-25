@@ -1,4 +1,62 @@
-<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+{% if site.dynamic-typing %}
+
+  <!-- Dynamic Typing Start -->
+
+  <script src="{{"/static/js/typed.min.js"| prepend: site.baseurl }}"></script>
+  <script type="text/javascript">
+
+  var myQuotes =  new Array();
+  {% for line in site.lines %}
+    myQuotes.push("{{ line.text }}");
+  {% endfor %}
+
+  function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex ;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+  }
+
+  {% if site.shuffle %}
+    shuffle(myQuotes)
+  {% endif %}
+
+    $("#inSlider").typed({
+      strings: myQuotes,
+      typeSpeed: {{ site.type-speed }},
+      backDelay: {{ site.delete-delay }},
+      startDelay: {{ site.start-delay }},
+      loop: {{ site..loop }},
+      loopCount: {{ site.loop-count }},
+      cursorChar: "|"
+    });
+  </script>
+
+  <!-- Dynamic Typing End  -->
+{% endif %}
+
+<div id="inSlider" class="carousel" data-ride="carousel">
+    <div class="carousel-inner"><div class="item">
+        <div class="header-back"
+             style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[1].src }});"
+             title="{{ site.data.index.banners[1].title }}">
+        </div>
+    </div></div>
+</div>
+
+<!-- div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#inSlider" data-slide-to="0" class="active"></li>
         <li data-target="#inSlider" data-slide-to="1"></li>
@@ -33,7 +91,7 @@
             </div>
             <!-- Set background for slide in css -->
             <div class="header-back" style="background-image: url({{ "/static/assets/img/"  | prepend: site.baseurl }}{{ banner.src }});" title="{{ banner.title }}"></div>
-        </div>
+        </!-->
         {% endfor %}
 
     </div>
@@ -45,4 +103,4 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-</div>
+</div -->

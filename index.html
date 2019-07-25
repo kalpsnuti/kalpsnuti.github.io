@@ -41,8 +41,9 @@ permalink: /
     </div>
   </nav>
 </div>
+
 {% if site.index_carousel %}
-{% include carousel.html %}
+  {% include carousel.html %}
 {% endif %}
 
 {% for section in site.data.landing %}
