@@ -33,7 +33,7 @@
     shuffle(myQuotes)
   {% endif %}
 
-    $("#inSlider").typed({
+    $("#typed-text").typed({
       strings: myQuotes,
       typeSpeed: {{ site.type-speed }},
       backDelay: {{ site.delete-delay }},
@@ -47,13 +47,12 @@
   <!-- Dynamic Typing End  -->
 {% endif %}
 
-<div id="inSlider" class="carousel" data-ride="carousel">
-    <div class="carousel-inner"><div class="item">
-        <div class="header-back"
-             style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[1].src }});"
-             title="{{ site.data.index.banners[1].title }}">
-        </div>
-    </div></div>
+<div id="inSlider" class="carousel">
+    <div class="header-back"
+            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[1].src }});"
+            title="{{ site.data.index.banners[1].title }}">
+    </div>
+    <span id="typed-text" class="typed-text"></span>
 </div>
 
 {% comment %}
