@@ -1,14 +1,20 @@
+<div id="inSlider" class="carousel">
+    <div class="header-back"
+            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[1].src }});"
+            title="{{ site.data.index.banners[1].title }}">
+    </div>
+    <span id="typed-text" class="typed-text"></span>
+</div>
+
 {% if site.dynamic-typing %}
-
   <!-- Dynamic Typing Start -->
-
   <script src="{{"/static/js/typed.min.js"| prepend: site.baseurl }}"></script>
   <script type="text/javascript">
 
-  var myQuotes =  new Array();
-  {% for line in site.lines %}
-    myQuotes.push("{{ line.text }}");
-  {% endfor %}
+    var myQuotes =  new Array();
+    {% for line in site.lines %}
+        myQuotes.push("{{ line.text }}");
+    {% endfor %}
 
   function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex ;
@@ -46,14 +52,6 @@
 
   <!-- Dynamic Typing End  -->
 {% endif %}
-
-<div id="inSlider" class="carousel">
-    <div class="header-back"
-            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[1].src }});"
-            title="{{ site.data.index.banners[1].title }}">
-    </div>
-    <span id="typed-text" class="typed-text"></span>
-</div>
 
 {% comment %}
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
