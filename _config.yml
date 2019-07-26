@@ -4,7 +4,7 @@ title: Gaurav J.
 description: Gaurav Joshi personal site.
 keywords: micro,services,cloud,spring,boot,aws,dropwizard,oss,agile
 # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-baseurl: /
+baseurl:
 # url should be 'http://<github_username>.github.io/homepage' as before
 url: https://kalpsnuti.github.io
 # url: http://127.0.0.1:4000
@@ -21,7 +21,7 @@ author:
   # Be used at index page about me section.
   last_name: Joshi
   # upload your avatar at directory and edit it.
-  avatar: static/assets/img/landing/avatar.jpg
+  avatar: /static/assets/img/landing/avatar.jpg
   # Leave blank if you don't have now
   github_username: gaurrav-j
   # Leave blank if you don't have now

@@ -6,23 +6,23 @@
   #gh_user: kalpsnuti
   url: https://www.edelweissinsurance.com/
   #repo: kalpsnuti
-  img: static/assets/img/landing/edelweiss.png
+  img: /static/assets/img/landing/edelweiss.png
   desc: The Edelweiss group's foray into next gen general insurace market.
 
 - name: Wm Morrisons PLC Freshbackbone
   i18n: morrisons
   url: https://groceries.morrisons.com/webshop/startWebshop.do
-  img: static/assets/img/landing/morrisons.svg
+  img: /static/assets/img/landing/morrisons.svg
   desc: I worked on fresh supplies middleware project using AWS cloud native tools.
 
 - name: SEIC UK Welath Management Portal
   i18n: seic
   url: https://seic.com/en-gb
-  img: static/assets/img/landing/seic.png
+  img: /static/assets/img/landing/seic.png
   desc: This is a wealth management portal based on Liferay framework.
 
 - name: Aon Benefits Portal
   i18n: aonh
   url: https://apac.aonhewitt.com/home
-  img: static/assets/img/landing/aonh.png
+  img: /static/assets/img/landing/aonh.png
   desc: This is an employee benefits portal based on Liferay framework.
