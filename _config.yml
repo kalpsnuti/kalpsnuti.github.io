@@ -74,12 +74,10 @@ blog_carousel: on
 ##############################
 dynamic-typing: True
 # Shuffle the lines.
-shuffle: False
 loop: True
 # Set False for infinite loop, or set any number for finite loop.
-loop-count: False
-type-speed: 10
-start-delay: 200
+start-delay: 2500
+type-speed: 2500
 delete-delay: 5000
 # You can add HTML Tags in the Text
 lines:

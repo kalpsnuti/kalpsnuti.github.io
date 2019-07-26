@@ -103,55 +103,31 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
       <p>
-        <span data-i18n="about_me.des"></span>
+        <span id="about_me_des" data-i18n="about_me.des"></span>
       </p>
     </div>
   </div>
 </div>
 
 {% if site.dynamic-typing %}
-  <!-- Dynamic Typing Start -->
+  <!-- Dynamic Typing Start https://safi.me.uk/typewriterjs/ -->
   <script src='{{"static/js/typed.min.js"| prepend: site.baseurl }}'></script>
 
-  <script type='text/javascript'>
-    var myQuotes =  new Array();
-    myQuotes.push("{{ site.author.desc }}");
+  <script>
+    var aboutMeDesc = document.getElementById('about_me_des');
+    var typewriter = new Typewriter(aboutMeDesc, { loop: {{site.loop}} });
+    
+    typewriter.typeString('{{ site.author.desc }}')
+    .pauseFor({{ site.start-delay }})
+    .deleteAll();
+    
     {% for line in site.lines %}
-        myQuotes.push("{{ line.text }}");
+    typewriter.typeString('{{ line.text }}')
+      .pauseFor({{ site.type-speed }})
+      .deleteAll();
     {% endfor %}
+    typewriter.start();
 
-  function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex ;
-
-    /* While there remain elements to shuffle... */
-    while (0 !== currentIndex) {
-
-      /* Pick a remaining element... */
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-
-      /* And swap it with the current element. */
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
-    }
-
-    return array;
-  }
-
-  {% if site.shuffle %}
-    shuffle(myQuotes);
-  {% endif %}
-   
-    $('span[data-i18n="about_me.des"]').typed({
-      strings: myQuotes,
-      typeSpeed: {{ site.type-speed }},
-      backDelay: {{ site.delete-delay }},
-      startDelay: {{ site.start-delay }},
-      loop: {{ site..loop }},
-      loopCount: {{ site.loop-count }}
-    });
   </script>
-
   <!-- Dynamic Typing End  -->
 {% endif %}
