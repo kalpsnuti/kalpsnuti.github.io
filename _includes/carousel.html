@@ -1,6 +1,14 @@
+
+{% if page.title != "index" %}
+<div class="header-back"
+        style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[1].src }});"
+        title="{{ site.data.index.banners[1].title }}">
+</div>
+{% else %}
 <div id="inSlider" class="carousel">
     <div class="header-back"
-            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[1].src }});"
-            title="{{ site.data.index.banners[1].title }}">
+            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }});"
+            title="{{ site.data.index.banners[0].title }}">
     </div>
 </div>
+{% endif %}

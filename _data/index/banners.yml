@@ -3,10 +3,10 @@
 #
 # Images are expected to be located in `static/assets/img/`.
 - src: landing/header_one.jpg
-  title: Manifesto for Software Craftsmanship
+  title: blogs
 
 - src: landing/header_two.jpg
-  title: code with SOLID
+  title: Gaurav Joshi
 
 - src: landing/header_three.png
   title: the neural network
