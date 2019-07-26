@@ -41,7 +41,7 @@ author:
     - name: icon-aws
     - name: icon-docker
   # Describe yourself.
-  desc: Gaurav's site, java architecture's & deep-dive on microservices, functional/reactive & cloud native applications; ui/ux stuff.
+  desc: java based architecture's & cloud native applications
 
 # comment
 # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
@@ -83,6 +83,8 @@ start-delay: 200
 delete-delay: 5000
 # You can add HTML Tags in the Text
 lines:
+  - text: "deep-dive the microservices waters"
+  - text: "explore functional/reactive applications & ui/ux stuff"
   - text: "Individuals and interactions^700 over processes and tools"
   - text: "Working software^700 over comprehensive documentation"
   - text: "Customer collaboration^700 over contract negotiation"
