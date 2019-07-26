@@ -41,7 +41,7 @@ author:
     - name: icon-aws
     - name: icon-docker
   # Describe yourself.
-  desc: java based architecture's & cloud native applications
+  desc: java based architecture\'s & cloud native applications
 
 # comment
 # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
@@ -83,8 +83,8 @@ delete-delay: 5000
 lines:
   - text: "deep-dive the microservices waters"
   - text: "explore functional/reactive applications & ui/ux stuff"
-  - text: "Individuals and interactions^700 over processes and tools"
-  - text: "Working software^700 over comprehensive documentation"
+  - text: "Individuals and interactions over processes and tools"
+  - text: "Working software over comprehensive documentation"
 
 #Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.
 

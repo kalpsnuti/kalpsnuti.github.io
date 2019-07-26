@@ -2473,16 +2473,14 @@ body {
   section p {
     color: #aeaeae;
     font-size: 13px;
+    #about_me_des{
+      color: #e8e9ea;
+    }
   }
   h1 {
     margin-top: 10px;
     font-size: 30px;
     font-weight: 200;
-    .about-me {
-      background: #5f9ea0;
-      color: #4b0082;
-      padding: 0 12px 0 12px;
-    }
   }
   .navy-line {
     width: 60px;
@@ -2507,7 +2505,7 @@ body {
   }
   .navbar-default {
     &.navbar-scroll {
-      background-color: #fff;
+      background-color: #e8e9ea;
       border-color: #fff;
       padding: 15px 0;
     }
@@ -2515,7 +2513,7 @@ body {
     border-color: transparent;
     transition: all 0.3s ease-in-out 0s;
     .nav li a {
-      color: #fff;
+      color: #e8e9ea;
       font-family: "Open Sans", helvetica, arial, sans-serif;
       font-weight: 700;
       letter-spacing: 1px;
@@ -2531,11 +2529,11 @@ body {
     .navbar-nav > {
       .active > a {
         background: 0 0;
-        color: #fff;
+        color: #e8e9ea;
         border-top: 6px solid #3385ff;
         &:hover {
           background: 0 0;
-          color: #fff;
+          color: #e8e9ea;
           border-top: 6px solid #3385ff;
         }
       }
@@ -2559,9 +2557,9 @@ body {
       &:focus,
       &:hover {
         background: #3385ff;
-        color: #fff;
+        color: #e8e9ea;
       }
-      color: #fff;
+      color: #e8e9ea;
       height: auto;
       display: block;
       font-size: 14px;
@@ -2573,7 +2571,7 @@ body {
     }
   }
   .navbar-scroll.navbar-default .nav li a {
-    color: #676a6c;
+    color: #e8e9ea;
     &:hover {
       color: #3385ff;
     }
