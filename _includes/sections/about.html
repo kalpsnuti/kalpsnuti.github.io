@@ -144,7 +144,7 @@
     shuffle(myQuotes);
   {% endif %}
    
-    $(span[data-i18n="about_me.des"]).typed({
+    $('span[data-i18n="about_me.des"]').typed({
       strings: myQuotes,
       typeSpeed: {{ site.type-speed }},
       backDelay: {{ site.delete-delay }},
